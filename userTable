@@ -1,0 +1,15 @@
+-- auto-generated definition
+create table userTable
+(
+    userIdx            int auto_increment comment '유저 인덱스'
+        primary key,
+    userID       varchar(45)                         not null comment '아이디',
+    userPassword       varchar(45)                         not null comment '비밀번호',
+    userName     varchar(45)                         not null comment '이름',
+    userBirth  varchar(100)                        null comment '생년월일',
+    userDepartment     varchar(45)                 null comment '학과',
+    userHabit          varchar(45)                              null comment '취미',
+    createdAt    timestamp default CURRENT_TIMESTAMP null comment '사용자 생성',
+    updatedAt    timestamp default CURRENT_TIMESTAMP null comment '사용자 업데이트',
+    status       char      default 'Y'               null comment 'Y : 유지, H : 휴면, N : 탈퇴'
+)
