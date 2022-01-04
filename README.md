@@ -1,14 +1,17 @@
 # JSW
 
 Front-End : React
-Back-End : Design Pattern, MVC Model 중심으로
+Back-End : Design Pattern(BeanFactory), MVC Model 중심으로.
 
 
 Design Pattern
-SOLID, Template, Strategy . . .
+SOLID, Template, Strategy(Template Parsing) . . .
 
 MVC
-Model, View, Controller
+Model, View (ModelAndView), Controller
+@Autowired
+@Repository
 
 DB
-MySQL
+MySQL : 연동성공
+h2
