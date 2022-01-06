@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="EUC-KR" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul th:each = "message : ${list}">
+
+    <li th:text = "${meesage?.id}"></li>
+    <li th:text = "${meesage?.name}"></li>
+    <li th:text = "${meesage?.age}"></li>
+
+</ul>
+
+</body>
+</html>
